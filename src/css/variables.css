@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+.container {
+  padding: 0;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.row-flex {
+  flex: 1;
+}
+.row-flex-2 {
+  flex: 2;
+}
+.flex {
+  display: flex;
+}
+.text-16 {
+  font-size: 16px;
+}
+.text-24 {
+  font-size: 24px;
+  line-height: 40px;
+}
+.text-32 {
+  font-size: 32px;
+  line-height: 40px;
+}
+.text-48 {
+  font-size: 48px;
+  line-height: 56px;
+}
+.text-72 {
+  font-size: 72px;
+  font-weight: 700;
+}
+.regular {
+  font-weight: 400;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.inline-grid {
+  display: inline-grid;
+  grid-gap: 20px;
+}
+.justify-center {
+  justify-items: center;
+}
+.italic {
+  font-style: italic;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.grid {
+  display: grid;
+}
+.text-white {
+  color: #ffffff;
+}

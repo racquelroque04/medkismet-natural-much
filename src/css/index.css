@@ -1,0 +1,398 @@
+/* navigation */
+.nav {
+  padding: 31px 0;
+  background-color: #FBD690;
+  position: fixed;
+  z-index: 10;
+}
+
+.nav-link {
+  padding: 0 20px;
+}
+
+.links {
+  justify-content: flex-end;
+}
+
+.logo {
+  text-align: center;
+}
+
+.login-btn {
+  background-color: #FF5433;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-radius: 40px;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.login-btn:focus {
+  box-shadow: 1px 1px 13px #ff4724;
+}
+
+.login-btn:active {
+  box-shadow: 1px 1px 13px #ff4724;
+}
+
+.cart-icon {
+  width: 25px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+/* banner */
+.row.content {
+  margin-top: 108px;
+  position: absolute;
+}
+.row.banner {
+  background: url('../assets/Hero\ Image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 400px;
+  background-position: center;
+}
+
+.line-1 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.line-2 {
+  justify-content: center;
+  text-align: center;
+}
+
+.line-3 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.live {
+  margin-right: 10px;
+}
+
+.healthy {
+  color:  #FF5433;
+}
+
+.see-all-offers-btn {
+  background-color: #FF5433;
+  color: #FFFFFF;
+  font-size: 24px;
+  border-radius: 40px;
+  padding: 15px 45px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* promos */
+.featured-products {
+  background-image: url(../assets/Gummy\ Vitamins.png), url(../assets/Softgels_Capsules.png);
+  background-repeat: no-repeat;
+  background-position: -166px 200px, 1100px 400px;
+  background-size: 800px, 700px;
+}
+
+.promos {
+  justify-content: center;
+  padding: 100px 200px;
+}
+
+.featured {
+  padding: 20px 350px 400px;
+}
+
+.featured-text {
+  color: #F05E3F;
+}
+
+.products {
+  padding-left: 350px;
+  padding-right: 300px;
+}
+
+.shop-more-div {
+  padding-top: 50px;
+}
+
+.shop-more-btn {
+  background-color: #FF5433;
+  color: #FFFFFF;
+  font-size: 24px;
+  border-radius: 40px;
+  padding: 15px 65px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* testimonies */
+.testimonies {
+  padding: 100px;
+  background: url('../assets/Green\ BG.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.text-orange {
+  color: #FF5433;
+}
+.bubbles {
+  display: grid;
+  grid-gap: 30px;
+}
+.img-bubbles {
+  width: 450px;
+}
+
+/* blog */
+.blog {
+  padding-top: 250px;
+}
+
+.blog-text {
+  color: #F05E3F;
+}
+
+.blog-description {
+  padding: 30px 150px;
+  text-align: center;
+}
+.blog-images {
+  width: 350px;
+}
+
+/* footer */
+.row.footer {
+  background-color: #F0785E;
+  padding: 70px 150px;
+}
+.subscribe {
+  align-self: flex-end;
+}
+.subscribe-text {
+  align-self: flex-end;
+  text-align: -webkit-center;
+}
+
+form.email-address {
+  display: flex;
+  width: 500px;
+  max-width: 80%;
+}
+
+form.email-address input[type=text] {
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  float: left;
+  width: 80%;
+  background: #21464F;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+form.email-address input[type=text]::placeholder {
+  color: #cac6c6;
+}
+
+/* Style the submit button */
+form.email-address button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #F2B104;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+/* Clear floats */
+form.email-address::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.padding-30 {
+  padding: 30px 0;
+}
+
+.padding-20 {
+  padding: 20px 0;
+}
+
+.padding-right-25 {
+  padding-right: 25px;
+}
+
+.padding-right-20 {
+  padding-right: 20px;
+}
+
+.social-icons {
+  justify-content: flex-end;
+}
+
+.divider {
+  border: 1px solid white;
+  width: 100%;
+}
+
+.copyright {
+  font-size: 13px;
+}
+/* media screens */
+@media only screen and (max-width: 600px) {
+  .row.nav {
+    display: block;
+  }
+
+  .row-flex {
+    padding: 5px 0;
+  }
+
+  .links {
+    justify-content: center;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .signin-link {
+    text-align: center;
+  }
+
+  .signin-link .flex {
+    justify-content: center;
+  }
+
+  .row.content {
+    margin-top: 190px;
+  }
+
+  .row.promos {
+    justify-content: center;
+    display: block;
+    padding: 0px 20px;
+  }
+
+  .row.banner {
+    padding-bottom: 133px;
+  }
+
+  .featured {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .featured-products {
+    background-position: -166px 200px, 900px 400px;
+    background-size: 800px, 700px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .featured-products {
+    background-position: -166px 200px, 800px 400px;
+    background-size: 800px, 700px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .featured-products {
+    background-position: -166px 200px, 800px 400px;
+    background-size: 800px, 650px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .featured-products {
+    background-position: -166px 200px, 700px 400px;
+    background-size: 800px, 650px;
+  }
+  .featured {
+    padding: 20px 250px 400px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .featured-products {
+    background-position: -166px 200px, 650px 400px;
+    background-size: 650px, 600px;
+  }
+  .featured {
+    padding: 20px 300px 400px;
+  }
+  .products {
+    padding: 0 200px;
+  }
+  .row.footer {
+    padding: 70px 100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .featured {
+    padding: 20px 200px 320px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .featured {
+    padding: 20px 195px 300px;
+  }
+  .featured-products {
+    background-position: -166px 200px, 600px 400px;
+    background-size: 550px, 500px;
+  }
+  .row-flex-2 {
+    flex: 1 !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .featured {
+    padding: 20px 100px 250px;
+  }
+  .promos {
+    justify-content: center;
+    padding: 100px;
+  }
+  .img-bubbles {
+    width: 400px;
+  }
+  .row.footer {
+    padding: 70px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .img-bubbles {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .testimonies {
+    padding: 50px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .testimonies {
+    padding: 100px 250px;
+  }
+}
